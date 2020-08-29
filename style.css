@@ -1,0 +1,123 @@
+body
+{
+	margin: 0;
+	padding: 0
+	height: 100vh;
+}
+
+html{
+	margin-top: 50px;
+    scroll-behavior: smooth;
+}
+#particles-js
+{
+	height: 100%;
+	background: #3f0505;
+
+}
+.headerset{
+	/*padding: 250px;*/
+	/*height: 50px;*/
+	/*box-sizing: border-box;*/
+	position: absolute;
+	top: 40%;
+	width: 100%;
+	line-height: 0.4rem;
+
+}
+
+.img_adjust{
+	height: 361px;
+	width: 259px;
+}
+
+.headerset h1{
+	font-size: 82px;
+}
+.about_text{
+	top: 50%;
+}
+
+.gap{
+	    margin-top: 138px;
+}
+.gap1{
+	    margin-top: 19px;
+}
+
+.contact_color{
+	background-color: #182c39;
+	/*background-image: linear-gradient(to top, #fad0c4 0%, #ffd1ff 100%);*/
+}
+.text-warning {
+    padding: 34px;
+}
+.achieve_set{
+	    padding-bottom: 65px;
+
+}
+.imgsetting{
+	border-radius: 50%;
+	height: 100px;
+	width: 100px;
+}
+
+
+.img_demo{
+	width: 18rem;
+}
+
+.carousel-indicators{
+	top:120%;
+}
+
+
+
+
+/*Extra small devices (phones, 600px and down)*/
+@media only screen and (max-width: 768px) {
+
+#particles-js{
+  padding-top: 150px;
+    height: 100%;
+}
+
+.headerset{
+	top: 48%;
+}
+
+.headerset h1{
+    font-size: 32px;
+}
+
+.img_adjust{
+margin-left: 190px;
+height: 321px;
+    width: 259px;
+}
+
+.about_project{
+	width: 300px;
+    margin-left: 70px;
+    
+}
+.carousel-indicators{
+	top:110%;
+}
+
+
+
+.img_demo{
+	width: 204px;
+    height: 242px;
+    left: 65px;
+
+  
+}
+
+
+
+
+
+
+}
