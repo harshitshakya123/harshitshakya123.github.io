@@ -3,7 +3,9 @@ body
 	margin: 0;
 	padding: 0
 	height: 100vh;
+	font-family: 'Courgette', cursive;
 }
+
 
 html{
 	margin-top: 50px;
@@ -11,7 +13,7 @@ html{
 }
 #particles-js
 {
-	height: 100%;
+	/*height: 100%;*/
 	background: #3f0505;
 
 }
@@ -23,6 +25,7 @@ html{
 	top: 40%;
 	width: 100%;
 	line-height: 0.4rem;
+	
 
 }
 
@@ -78,8 +81,8 @@ html{
 @media only screen and (max-width: 768px) {
 
 #particles-js{
-  padding-top: 150px;
-    height: 100%;
+  
+    height: 396px;
 }
 
 .headerset{
@@ -91,9 +94,52 @@ html{
 }
 
 .img_adjust{
-margin-left: 190px;
-height: 321px;
+
+height: 290px;
     width: 259px;
+}
+
+
+
+
+.carousel-indicators{
+	top:110%;
+}
+
+
+.gap1{
+	    font-size: 13px;
+}
+
+  
+}
+}
+
+@media only screen and (max-width: 480px) {
+
+#particles-js{
+   height: 396px;
+}
+
+.headerset{
+	top: 48%;
+}
+
+.headerset h1{
+    font-size: 32px;
+}
+
+.img_adjust{
+margin-left: 89px;
+
+    width: 259px;
+}
+
+.img_demo{
+	width: 204px;
+    height: 242px;
+    left: 65px;
+  
 }
 
 .about_project{
@@ -105,18 +151,13 @@ height: 321px;
 	top:110%;
 }
 
-
-
-.img_demo{
-	width: 204px;
-    height: 242px;
-    left: 65px;
-
-  
+.gap1{
+	   font-size: 13px; 
 }
 
-
-
+.achieve_set{
+	font-size: 10px;
+}
 
 
 
