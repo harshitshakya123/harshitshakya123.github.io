@@ -153,7 +153,7 @@ font-size: 13px;
 
 @media only screen and (max-width: 480px) {
 #particles-js{
-height: 550px;
+height: 600px;
 }
 
 * hr{
