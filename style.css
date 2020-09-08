@@ -24,7 +24,7 @@ background: linear-gradient(to right, #6f0000, #200122);
 
 .headerset{
 position: absolute;
-top: 43%;
+margin-top: 250px;
 width: 100%;
 line-height: 0.4rem;
 color: #fff;
