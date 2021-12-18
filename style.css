@@ -207,6 +207,11 @@ font-size: 13px;
 display: block;
 text-align: center;
 }
+.footer-mail{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	}
 
 .achieve_set h5{
 font-size: 15px;
